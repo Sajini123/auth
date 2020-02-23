@@ -1,20 +1,27 @@
 {
-  "name": "login",
+  "name": "auth",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ransaka/auth.git"
+  },
   "author": "Ransaka Ravihara",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ransaka/auth/issues"
+  },
+  "homepage": "https://github.com/Ransaka/auth#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
   "dependencies": {
-    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.2"
-  },
-  "devDependencies": {
-    "nodeman": "^1.1.2"
   }
 }
